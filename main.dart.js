@@ -15871,23 +15871,24 @@ _.c=c
 _.a=d},
 vj(){var s=0,r=A.Z(t.z),q,p,o
 var $async$vj=A.a_(function(a,b){if(a===1)return A.W(b,r)
-while(true)switch(s){case 0:p=$.a3z()
+while(true)switch(s){case 0:if("flutterReady" in window)window.flutterReady()
+q=$.a3z()
 s=2
-return A.U(A.a1P(p),$async$vj)
-case 2:q=t.z
+return A.U(A.a1P(q),$async$vj)
+case 2:p=t.z
 o=$.I3
 s=3
-return A.U(p.o3("state",q),$async$vj)
+return A.U(q.o3("state",p),$async$vj)
 case 3:o.b=b
-p=$.I3.aq()
-if(!p.f)A.G(A.dm("Box has already been closed."))
-p=p.e
-p===$&&A.h()
-if(p.c.e===0)$.I3.aq().C(0,A.aF(["count",0],t.N,q))
+q=$.I3.aq()
+if(!q.f)A.G(A.dm("Box has already been closed."))
+q=q.e
+q===$&&A.h()
+if(q.c.e===0)$.I3.aq().C(0,A.aF(["count",0],t.N,p))
 if($.b1==null)A.a6F()
-p=$.b1
-p.DB(B.BT)
-p.v3()
+q=$.b1
+q.DB(B.BT)
+q.v3()
 return A.X(null,r)}})
 return A.Y($async$vj,r)},
 z4:function z4(a){this.a=a},
@@ -48658,7 +48659,7 @@ A.u_.prototype={
 KY(){this.az(new A.YJ(this))},
 M(a){var s,r,q=null
 this.a.toString
-s=A.a6n("Flutter Demo Home Page #2",q)
+s=A.a6n("Flutter Demo Home Page #3",q)
 r=this.d
 return new A.rd(new A.oo(s,new A.Fx(q,q,1/0,56),q),A.JM(A.abu(A.a([B.H5,A.a6n(""+r.grw(r),A.bj(a).RG.e)],t.F),B.Bk),q,q),A.a4M(B.y0,!1,this.gKX(),"Increment"),q)}}
 A.YJ.prototype={
